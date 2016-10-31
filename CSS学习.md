@@ -1,9 +1,5 @@
 ﻿# CSS学习
 
-标签（空格分隔）： 未分类
-
----
-
 ## 1、CSS语法
 CSS规则由两个主要的部分构成：选择器，以及一条或多条声明。
 ```html
@@ -180,25 +176,19 @@ body {background-image: url("images/back40.gif");}
 
 2、内部样式表
 当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 <style> 标签在文档头部定义内部样式表，就像这样:
-```css
-<head>
-<style type="text/css">
+```html
   hr {color: sienna;}
   p {margin-left: 20px;}
   body {background-image: url("images/back40.gif");}
-</style>
-</head>
 ```
-
 3、内联样式
 由于要将表现和内容混杂在一起，内联样式会损失掉样式表的许多优势。
-要使用内联样式，你需要在相关的标签内使用样式（style）属性。Style 属性可以包含任何 CSS 属性。本例展示如何改变段落的颜色和左外边距：
+要使用内联样式，你需要在相关的标签内使用样式（style）属性。Style 属性可以包含任何 CSS 属性。本例展示如何改变段落的颜色和左外边距
 ```css
 <p style="color: sienna; margin-left: 20px">
 This is a paragraph
 </p>
 ```
-
 ## 多重样式
 如果某些属性在不同的样式表中被同样的选择器定义，那么属性值将从更具体的样式表中被继承过来。
 例如，外部样式表拥有针对 h3 选择器的三个属性：
