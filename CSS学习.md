@@ -176,10 +176,6 @@ body {background-image: url("images/back40.gif");}
 
 2、内部样式表
 当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用<style>标签在文档头部定义内部样式表，就像这样:
-```css
-  p {margin-left: 20px;}
-  body {background-image: url("images/back40.gif");}
-```
 
 3、内联样式
 由于要将表现和内容混杂在一起，内联样式会损失掉样式表的许多优势。
