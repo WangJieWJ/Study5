@@ -17,7 +17,7 @@ selector{property:value}
 h1 {color:red; font-size:14px;}
 ```
 ## 选择器的分组
-	你可以对选择器进行分组，这样，被分组的选择器就可以分享相同的声明。用逗号将需要分组的选择器分开。在下面的例子中，我们对所有的标题元素进行了分组。所有的标题元素都是绿色的。
+你可以对选择器进行分组，这样，被分组的选择器就可以分享相同的声明。用逗号将需要分组的选择器分开。在下面的例子中，我们对所有的标题元素进行了分组。所有的标题元素都是绿色的。
 ```css
 h1,h2,h3,h4,h5,h6 {
 		color: green;
@@ -161,7 +161,7 @@ input[type="button"]
 ## CSS创建
 1、引入外部样式
 当样式需要应用于很多页面时，外部样式表将是理想的选择。在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用 <link> 标签链接到样式表。<link> 标签在（文档的）头部：
-```css
+```html
 <head>
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 </head>
@@ -175,9 +175,8 @@ body {background-image: url("images/back40.gif");}
 ```
 
 2、内部样式表
-当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 <style> 标签在文档头部定义内部样式表，就像这样:
+当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用<style>标签在文档头部定义内部样式表，就像这样:
 ```css
-  hr {color: sienna;}
   p {margin-left: 20px;}
   body {background-image: url("images/back40.gif");}
 ```
